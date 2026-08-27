@@ -91,7 +91,7 @@ MIT — see [LICENSE](LICENSE). Deliberately chosen to keep this usable in both 
 
 ## Contact / discussion
 
-*(Add: Codeberg repo URL, any chat/forum link once set up, maintainer contact)*
+<!--*(Add: Codeberg repo URL, any chat/forum link once set up, maintainer contact)*-->
 
 ---
 

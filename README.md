@@ -77,8 +77,8 @@ Useful backgrounds:
 - Interest in DICOMweb/FHIR, even if not immediately relevant
 
 **How to start:**
-1. Read this README and skim the [open issues](../../issues) — look for the `good first issue` label once they exist.
-2. Introduce yourself in [Discussions](../../issues) — tell us what you're interested in working on.
+1. Read this README and skim the [open issues](https://codeberg.org/FrancescaY/Paradoc/issues) — look for the `good first issue` label once they exist.
+2. Introduce yourself in [Discussions](https://codeberg.org/FrancescaY/Paradoc/issues) — tell us what you're interested in working on.
 3. For anything non-trivial, open an issue to discuss the approach before submitting a PR — this is a young project and we're still converging on conventions.
 
 ## Scope & disclaimer
@@ -92,7 +92,7 @@ MIT — see [LICENSE](LICENSE). Deliberately chosen to keep this usable in both 
 ## Contact / Discussion
 
 <!--*(Add: Codeberg repo URL, any chat/forum link once set up, maintainer contact)*-->
-
+This is a mirror. Development happens on *https://codeberg.org/FrancescaY/Paradoc* — please open issues and pull requests there.
 ---
 
 *This README is itself a draft — feedback on framing, scope, and milestones is welcome, especially before we start attracting contributors around it.*

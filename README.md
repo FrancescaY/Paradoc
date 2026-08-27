@@ -90,8 +90,6 @@ This software is not certified as a medical device and is not intended for prima
 MIT — see [LICENSE](LICENSE). Deliberately chosen to keep this usable in both open and commercial downstream projects without friction.
 
 ## Contact / Discussion
-
-<!--*(Add: Codeberg repo URL, any chat/forum link once set up, maintainer contact)*-->
 This is a mirror. Development happens on *https://codeberg.org/FrancescaY/Paradoc* — please open issues and pull requests there.
 ---
 

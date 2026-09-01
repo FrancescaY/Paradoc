@@ -1,4 +1,4 @@
-# Paradoc
+# Extempore
 
 > A modern, native DICOM toolkit for Linux — built in C#/.NET on top of [fo-dicom](https://github.com/fo-dicom/fo-dicom). Its first two applications are **Batavia** (a mini-PACS server) and **Rebus** (a viewer).
 
@@ -11,13 +11,13 @@
 
 DICOM tooling on Linux has a real gap. [Weasis](https://github.com/nroduit/Weasis) is open-source and cross-platform but built on Java/Swing. [OHIF](https://ohif.org/) is an excellent web viewer but needs a DICOMweb-compliant server behind it. [Orthanc](https://www.orthanc-server.com/) is a strong lightweight PACS server but not a full desktop viewing client. There is currently no actively developed, native, modern-toolkit desktop DICOM viewer for Linux comparable to what Windows users have with tools like MicroDicom or RadiAnt.
 
-[fo-dicom](https://github.com/fo-dicom/fo-dicom) provides a solid, actively maintained .NET implementation of the DICOM standard. What's missing is the application layer above it: reusable, well-designed building blocks (patient/study/series management, rendering, storage, networking) that a Dicom client (such as a viewer), a PACS server, or specified tools can all share. **Paradoc** is designed to play the role of this layer.
+[fo-dicom](https://github.com/fo-dicom/fo-dicom) provides a solid, actively maintained .NET implementation of the DICOM standard. What's missing is the application layer above it: reusable, well-designed building blocks (patient/study/series management, rendering, storage, networking) that a Dicom client (such as a viewer), a PACS server, or specified tools can all share. **Extempore** is designed to play the role of this layer.
 
-**This project is not "yet another DICOM viewer."** Paradoc is a framework — with a viewer (**Rebus**) and a mini-PACS server (**Batavia**), as its first concrete, shippable applications. DICOMweb/FHIR interoperability are a longer-term direction once the core is solid.
+**This project is not "yet another DICOM viewer."** Extempore is a framework — with a viewer (**Rebus**) and a mini-PACS server (**Batavia**), as its first concrete, shippable applications. DICOMweb/FHIR interoperability are a longer-term direction once the core is solid.
 
 ## Project goals
 
-- **Paradoc: a DICOM framework for .NET/Avalonia** — reusable components and abstractions built upon fo-dicom, usable independently of any single application.
+- **Extempore: a DICOM framework for .NET/Avalonia** — reusable components and abstractions built upon fo-dicom, usable independently of any single application.
 - **A desktop viewer application (Rebus)** — native, fast, Linux-first (cross-platform via Avalonia), MIT-licensed.
 - **A mini-PACS server application (Batavia)** —classical Dicom networking.
 - **Longer-term**: DICOMweb and FHIR extension points, once the core framework and both flagship apps are stable.
@@ -77,8 +77,8 @@ Useful backgrounds:
 - Interest in DICOMweb/FHIR, even if not immediately relevant
 
 **How to start:**
-1. Read this README and skim the [open issues](https://codeberg.org/FrancescaY/Paradoc/issues) — look for the `good first issue` label once they exist.
-2. Introduce yourself in [Discussions](https://codeberg.org/FrancescaY/Paradoc/issues) — tell us what you're interested in working on.
+1. Read this README and skim the [open issues](https://codeberg.org/FrancescaY/Extempore/issues) — look for the `good first issue` label once they exist.
+2. Introduce yourself in [Discussions](https://codeberg.org/FrancescaY/Extempore/issues) — tell us what you're interested in working on.
 3. For anything non-trivial, open an issue to discuss the approach before submitting a PR — this is a young project and we're still converging on conventions.
 
 ## Scope & disclaimer
@@ -93,7 +93,7 @@ MIT — see [LICENSE](LICENSE). Deliberately chosen to keep this usable in both 
    
 This is a mirror. Development happens on 
 
-*https://codeberg.org/FrancescaY/Paradoc* — 
+*https://codeberg.org/FrancescaY/Extempore* — 
 
 please open issues and pull requests there.
 
